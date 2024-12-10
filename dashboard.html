@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Fintech</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="navbar bg-primary text-white py-3">
+        <div class="container d-flex justify-content-between">
+            <h1 class="titulo-dashboard">Fintech</h1>
+            <button class="btn btn-light d-flex align-items-center gap-2">
+                <i class="bi bi-box-arrow-right"></i>
+                Sair
+            </button>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="container my-5">
+        <!-- Saldo -->
+        <section id="saldo" class="mb-5">
+            <div class="card p-4 shadow">
+                <h2 class="titulo-saldo d-flex align-items-center gap-2">
+                    <i class="bi bi-wallet2"></i>
+                    Meu Saldo
+                </h2>
+                <p class="valor-saldo text-success">R$ 44,71</p>
+                <div class="d-flex gap-3 mt-3">
+                    <button class="btn btn-primary d-flex align-items-center gap-2">
+                        <i class="bi bi-piggy-bank"></i>
+                        Depositar
+                    </button>
+                    <button class="btn btn-secondary d-flex align-items-center gap-2">
+                        <i class="bi bi-arrow-right-circle"></i>
+                        Transferir
+                    </button>
+                    <button class="btn btn-light d-flex align-items-center gap-2">
+                        <i class="bi bi-three-dots"></i>
+                        Mais Serviços
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cartão de Crédito -->
+        <section id="cartao" class="mb-5">
+            <div class="card p-4 shadow">
+                <h2 class="titulo-cartao d-flex align-items-center gap-2">
+                    <i class="bi bi-credit-card"></i>
+                    Cartão de Crédito
+                </h2>
+                <p class="texto-limite">
+                    <strong>Limite Utilizado:</strong> R$ 4.619,83 <br>
+                    <strong>Disponível:</strong> R$ 1.380,17 <br>
+                    <strong>Limite Total:</strong> R$ 6.000,00
+                </p>
+                <p>
+                    <strong>Última Compra:</strong> RIACHUELO SHP CN - R$ 117,50
+                </p>
+                <div class="d-flex gap-3 mt-3">
+                    <button class="btn btn-primary d-flex align-items-center gap-2">
+                        <i class="bi bi-plus-circle"></i>
+                        Solicitar Cartão
+                    </button>
+                    <button class="btn btn-danger d-flex align-items-center gap-2">
+                        <i class="bi bi-trash"></i>
+                        Cancelar Cartão
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Serviços Contratados -->
+        <section id="servicos" class="mb-5">
+            <div class="card p-4 shadow">
+                <h2 class="titulo-servicos d-flex align-items-center gap-2">
+                    <i class="bi bi-gear"></i>
+                    Serviços Contratados
+                </h2>
+                <table class="table table-striped mt-3">
+                    <thead>
+                        <tr>
+                            <th><i class="bi bi-list"></i> Serviço</th>
+                            <th><i class="bi bi-cash"></i> Valor Mensal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="bi bi-shield-lock"></i> Seguro do Cartão</td>
+                            <td>R$ 9,90</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-house"></i> Seguro Aluguel</td>
+                            <td>R$ 99,90</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-cash-coin"></i> Cheque Especial</td>
+                            <td>R$ 7,90</td>
+                        </tr>
+                        <tr>
+                            <td><i class="bi bi-car-front"></i> Seguro Auto</td>
+                            <td>R$ 129,90</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="text-center bg-dark text-white py-3">
+        <p>&copy; 2024 Fintech. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

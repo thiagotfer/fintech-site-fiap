@@ -1,0 +1,215 @@
+/* Configurações gerais */
+body {
+    font-family: 'Exo', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Cabeçalho */
+.topo {
+    background-color: #3498db;
+    padding: 20px;
+}
+
+.titulo {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.form-login input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.botao-login {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+
+/* Serviços */
+.card-servico {
+    text-align: center;
+    margin: 20px;
+}
+
+.card-servico i {
+    font-size: 3rem;
+    color: #3498db;
+}
+
+/* Como Funciona */
+.card-como-funciona {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-como-funciona:hover {
+    transform: translateY(-10px);
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+/* Imagem do cartão */
+.imagem-cartao {
+    max-width: 90%; /* Responsivo */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+
+.secao {
+    padding: 60px 0;
+}
+
+.secao-clara {
+    padding: 80px 0;
+}
+
+
+#beneficios .titulo-secao {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.lista-beneficios li {
+    font-size: 1.2rem; 
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.lista-beneficios i {
+    font-size: 1.5rem; 
+    margin-right: 10px; 
+    color: #28a745; 
+}
+
+
+#beneficios .row {
+    gap: 0; 
+}
+
+#beneficios .col-md-6 {
+    padding: 0 100px;
+}
+
+
+#beneficios .imagem-cartao {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+#como-funciona .row {
+    gap: 20px; 
+}
+
+.card-como-funciona {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card-como-funciona:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+#como-funciona .card-como-funciona i {
+    font-size: 3.5rem; 
+    color: #3498db; 
+    margin-bottom: 15px; 
+}
+
+
+
+/* Ajustar o estilo do ícone nos depoimentos */
+#depoimentos i {
+    font-size: 3.5rem; 
+    color: #3498db; 
+    margin-bottom: 15px; 
+}
+
+
+
+/* Estilo dos ícones na seção "Nossos Serviços" */
+#servicos .carousel-item i {
+    font-size: 3.5rem; 
+    color: #3498db; 
+    margin-bottom: 10px; 
+}
+
+
+
+
+/* Botão Fixo no Rodapé */
+#botao-flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    z-index: 1000; 
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+#botao-flutuante:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para o cabeçalho */
+.topo {
+    background-color: #3498db;
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Centraliza o título */
+.titulo {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0; /* Remove margens adicionais */
+}
+
+/* Estilo do formulário de login */
+.form-login {
+    margin-left: auto; /* Posiciona o formulário no canto direito */
+}
+
+#data-hora {
+    font-size: 1rem;
+    color: white;
+    margin-left: 0; /* Garante que não tenha margem */
+    padding-left: 10px; /* Adiciona espaçamento leve da borda */
+    text-align: left; /* Garante alinhamento à esquerda */
+    white-space: nowrap; /* Impede quebra de linha */
+}
