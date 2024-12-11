@@ -26,6 +26,8 @@ body {
 
 #saldo button {
     font-size: 1rem;
+    flex: 1; /* Faz os botões ocuparem o mesmo espaço */
+    min-width: 100px; /* Tamanho mínimo para dispositivos menores */
 }
 
 /* Cartão de Crédito */
@@ -52,6 +54,16 @@ body {
 .table td i {
     margin-right: 8px;
     color: #3498db;
+}
+
+/* Botões Responsivos */
+#saldo .d-flex {
+    flex-wrap: wrap; /* Permite que os botões quebrem linha em dispositivos menores */
+    gap: 10px; /* Adiciona espaçamento entre os botões */
+}
+
+#saldo button {
+    font-size: 1rem;
 }
 
 /* Rodapé */
