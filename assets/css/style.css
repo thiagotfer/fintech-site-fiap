@@ -31,6 +31,64 @@ body {
 }
 
 
+/* Cabeçalho Responsivo */
+.topo {
+    background-color: #3498db;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Centraliza o título */
+.titulo {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0;
+    order: 1;
+}
+
+/* Estilo do formulário de login */
+.form-login {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    order: 2;
+}
+
+/* Estilo dos campos de input */
+.form-login input {
+    margin-right: 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 150px;
+}
+
+/* Estilo do botão de login */
+.botao-login {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    max-width: 150px;
+}
+
+/* Data e hora */
+#data-hora {
+    font-size: 1rem;
+    color: white;
+    white-space: nowrap;
+    text-align: left;
+    order: 0;
+    width: 100%;
+}
 
 /* Serviços */
 .card-servico {
@@ -213,3 +271,5 @@ body {
     text-align: left; /* Garante alinhamento à esquerda */
     white-space: nowrap; /* Impede quebra de linha */
 }
+
+
