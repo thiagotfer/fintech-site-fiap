@@ -12,9 +12,9 @@
 <body>
     <!-- Cabeçalho -->
     <header class="navbar bg-primary text-white py-3">
-        <div class="container d-flex justify-content-between">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
             <h1 class="titulo-dashboard">Fintech</h1>
-            <button class="btn btn-light d-flex align-items-center gap-2">
+            <button class="btn btn-light d-flex align-items-center gap-2 mt-2 mt-md-0">
                 <i class="bi bi-box-arrow-right"></i>
                 Sair
             </button>
@@ -31,7 +31,7 @@
                     Meu Saldo
                 </h2>
                 <p class="valor-saldo text-success">R$ 44,71</p>
-                <div class="d-flex gap-3 mt-3">
+                <div class="d-flex flex-column flex-md-row gap-3 mt-3">
                     <button class="btn btn-primary d-flex align-items-center gap-2">
                         <i class="bi bi-piggy-bank"></i>
                         Depositar
@@ -63,7 +63,7 @@
                 <p>
                     <strong>Última Compra:</strong> RIACHUELO SHP CN - R$ 117,50
                 </p>
-                <div class="d-flex gap-3 mt-3">
+                <div class="d-flex flex-column flex-md-row gap-3 mt-3">
                     <button class="btn btn-primary d-flex align-items-center gap-2">
                         <i class="bi bi-plus-circle"></i>
                         Solicitar Cartão
@@ -83,32 +83,34 @@
                     <i class="bi bi-gear"></i>
                     Serviços Contratados
                 </h2>
-                <table class="table table-striped mt-3">
-                    <thead>
-                        <tr>
-                            <th><i class="bi bi-list"></i> Serviço</th>
-                            <th><i class="bi bi-cash"></i> Valor Mensal</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><i class="bi bi-shield-lock"></i> Seguro do Cartão</td>
-                            <td>R$ 9,90</td>
-                        </tr>
-                        <tr>
-                            <td><i class="bi bi-house"></i> Seguro Aluguel</td>
-                            <td>R$ 99,90</td>
-                        </tr>
-                        <tr>
-                            <td><i class="bi bi-cash-coin"></i> Cheque Especial</td>
-                            <td>R$ 7,90</td>
-                        </tr>
-                        <tr>
-                            <td><i class="bi bi-car-front"></i> Seguro Auto</td>
-                            <td>R$ 129,90</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table table-striped mt-3">
+                        <thead>
+                            <tr>
+                                <th><i class="bi bi-list"></i> Serviço</th>
+                                <th><i class="bi bi-cash"></i> Valor Mensal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><i class="bi bi-shield-lock"></i> Seguro do Cartão</td>
+                                <td>R$ 9,90</td>
+                            </tr>
+                            <tr>
+                                <td><i class="bi bi-house"></i> Seguro Aluguel</td>
+                                <td>R$ 99,90</td>
+                            </tr>
+                            <tr>
+                                <td><i class="bi bi-cash-coin"></i> Cheque Especial</td>
+                                <td>R$ 7,90</td>
+                            </tr>
+                            <tr>
+                                <td><i class="bi bi-car-front"></i> Seguro Auto</td>
+                                <td>R$ 129,90</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
     </main>
